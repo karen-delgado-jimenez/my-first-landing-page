@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card {
+    background: url("img/background_purple.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    height: 80vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 1px 2px 4px 1px rgb(0 0 0 / 50%);
+}
+
+.card:hover {
+    transform: scale(1.01,1.01);
+}
+
+.content {
+    display: flex;
+    color: #fff;
+    width: 80%;
+    height: 80%;
+}
+
+.content__logo {
+    width: 50%;
+    display: flex;
+}
+
+.content__text {
+    width: 50%;
+    padding-top: 80px;
+}
+
+.title {
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+.subtitle {
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+p {
+    margin-top: 70px;
+    padding-right: 35%;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 80px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: purple;
+    background: white;
+    cursor: pointer;
+}
